@@ -110,7 +110,7 @@ provisioner "remote-exec" {
       "sudo mkfs.ext4  /dev/xvdh",
       "sudo mount  /dev/xvdh  /var/www/html",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/Gaurav1829/Terraform.git  /var/www/html/"
+      "sudo git clone https://github.com/amolpattill/Terraform.git  /var/www/html/"
     ]
   }
 }
